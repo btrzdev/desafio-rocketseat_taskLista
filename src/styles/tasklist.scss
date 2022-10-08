@@ -90,6 +90,13 @@ section.task-list {
               text-decoration:line-through;
               opacity: 0.6;
             }
+          
+          }
+          &.incompleted {
+            p {
+              text-decoration: none;
+              opacity: initial;
+            }
           }
 
           .checkbox-container {
